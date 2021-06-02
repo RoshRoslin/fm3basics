@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { useGlobalContext } from './context';
 import data from './data';
@@ -17,7 +17,7 @@ const TutorialsComponent = () => {
           <h1 className='tutorial-h1'>FM3 Tutorials</h1>
 
           {tutorials.map((video) => {
-            const { label, icon, videoId, image, index, description } = video;
+            const { index } = video;
 
             return (
               <div className={`tutorial-div video${index}`} key={index}>

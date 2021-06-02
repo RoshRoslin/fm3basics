@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import 'react-modal-video/scss/modal-video.scss';
 
-import ReactDOM from 'react-dom';
 import ModalVideo from 'react-modal-video';
 
 const VideoModal = ({ label, icon, videoId, image, index, description }) => {
