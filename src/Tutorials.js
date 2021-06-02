@@ -21,16 +21,7 @@ const TutorialsComponent = () => {
 
             return (
               <div className={`tutorial-div video${index}`} key={index}>
-                <h3>{label}</h3>
-
-                <img
-                  src={image}
-                  className='tutorial-img'
-                  alt='tutorial thumbnail'
-                ></img>
-
-                <p>{description}</p>
-                <VideoModal videoId={videoId}></VideoModal>
+                <VideoModal {...video}></VideoModal>
               </div>
             );
           })}

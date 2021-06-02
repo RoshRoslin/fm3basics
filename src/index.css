@@ -359,6 +359,10 @@ Stripe Styles
   /* display: none; */
 }
 
+.tutorial-click-div {
+  cursor: pointer;
+}
+
 .footer {
   background-image: linear-gradient(to right, #1c92d2, #f2fcfe);
   height: 5rem;
