@@ -11,7 +11,7 @@ const Hero = () => {
         <article className='hero-info'>
           <h1>FM3 Basics</h1>
           <p>
-            Tutorials, presets, and community for Fractal Audio's FM3. The
+            Tutorials, presets, and community for Fractal Audio's FM3 - The
             industry leading amp and cab modeling unit, in a powerful foot
             controller.
           </p>
