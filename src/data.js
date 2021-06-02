@@ -18,8 +18,8 @@ const sublinks = [
         index: 2,
         label: 'Video 2',
         icon: <FaYoutube />,
-        videoId: 'oYrOk-eO5d0',
-        image: 'https://img.youtube.com/vi/oYrOk-eO5d0/0.jpg',
+        videoId: 'sSbPOIGFxus',
+        image: 'https://img.youtube.com/vi/sSbPOIGFxus/0.jpg',
         description:
           'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam nulla autem voluptatum repudiandae tempore commodi dolorum optio possimus illum ratione!',
       },
