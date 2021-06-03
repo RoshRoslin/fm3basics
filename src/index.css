@@ -326,6 +326,7 @@ Stripe Styles
 
 .tutorial-h1 {
   grid-area: header;
+  margin-bottom: 4rem;
 }
 
 .video1 {
@@ -563,6 +564,7 @@ Stripe Styles
   .tutorial-info h1 {
     max-width: 100%;
     font-size: 3rem;
+    margin-bottom: 4rem;
   }
   .tutorial-info p {
     font-size: 1.25rem;
@@ -675,6 +677,7 @@ Stripe Styles
 .sidebar-sublinks svg {
   color: var(--clr-grey-5);
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 800px) {
