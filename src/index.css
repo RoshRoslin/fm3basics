@@ -201,9 +201,10 @@ Stripe Styles
 .hero-center {
   width: 90vw;
   max-width: var(--max-width);
-
+  margin-top: 15rem;
   display: grid;
   align-items: center;
+  grid-template-columns: 1fr;
 }
 
 /* .hero-info {
@@ -221,8 +222,13 @@ Stripe Styles
   line-height: 1.8;
   margin: auto;
 }
+
 .hero-images {
-  display: none;
+  margin: auto;
+}
+
+.fm3-img {
+  width: 20rem;
 }
 
 /* ABOUT */
@@ -356,7 +362,7 @@ Stripe Styles
 }
 
 .tutorial-img {
-  width: 0px;
+  width: 7rem;
   /* display: none; */
 }
 
