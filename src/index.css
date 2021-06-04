@@ -201,7 +201,7 @@ Stripe Styles
 .hero-center {
   width: 90vw;
   max-width: var(--max-width);
-  margin-top: 15rem;
+  margin-top: 10rem;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr;
@@ -482,14 +482,13 @@ Stripe Styles
 }
 @media screen and (min-width: 1400px) {
   .hero-center {
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
   }
   .hero-info {
     justify-content: center;
   }
   .hero-images {
     margin-left: 5rem;
-    margin-top: 10rem;
   }
   .fm3-img {
     width: 50rem;
