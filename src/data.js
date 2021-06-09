@@ -12,7 +12,7 @@ const sublinks = [
         videoId: 'lcX6FIBYtz0',
         image: 'https://img.youtube.com/vi/lcX6FIBYtz0/0.jpg',
         url: 'https://youtu.be/lcX6FIBYtz0',
-        description: 'Assigning Footswitches - Effects and Hold Functions',
+        description: 'Assigning Footswitches - Effects and Hold Functions    ',
       },
       {
         index: 2,
@@ -21,7 +21,7 @@ const sublinks = [
         videoId: 'vbaZjJfpr2M',
         image: 'https://img.youtube.com/vi/vbaZjJfpr2M/0.jpg',
         url: 'https://youtu.be/vbaZjJfpr2M',
-        description: 'Assigning Footswitches - Scenes and Toggle Functions',
+        description: 'Assigning Footswitches - Scene and Toggle Functions   ',
       },
       {
         index: 3,
@@ -30,7 +30,7 @@ const sublinks = [
         videoId: 'gOeCtkBPb1g',
         image: 'https://img.youtube.com/vi/gOeCtkBPb1g/0.jpg',
         url: 'https://youtu.be/gOeCtkBPb1g',
-        description: 'Assigning Footswitches - Tuner and Tap Tempo         ',
+        description: 'Assigning Footswitches - Tuner and Tap Tempo Functions',
       },
       {
         index: 4,
@@ -40,7 +40,7 @@ const sublinks = [
         image: 'https://img.youtube.com/vi/qt4v6Euxdz0/0.jpg',
         url: 'https://youtu.be/qt4v6Euxdz0',
         description:
-          'Assigning footswitches - Preset increment and decrement functions',
+          'Assigning footswitches - Preset increment and decrement functions                 ',
       },
       {
         index: 5,
@@ -50,7 +50,7 @@ const sublinks = [
         image: 'https://img.youtube.com/vi/aYSSI0K8T60/0.jpg',
         url: 'https://youtu.be/aYSSI0K8T60',
         description:
-          'Assigning footswitches - Building a simple three button preset     ',
+          'Assigning footswitches - Build a simple three button preset        ',
       },
       {
         index: 6,
@@ -60,7 +60,7 @@ const sublinks = [
         image: 'https://img.youtube.com/vi/Z8AFOa_OSns/0.jpg',
         url: 'https://youtu.be/Z8AFOa_OSns',
         description:
-          'Seamless Switching - Three approaches to avoid audio gaps           ',
+          'Seamless Switching - Approaches to avoid audio gaps/dropouts       ',
       },
     ],
   },

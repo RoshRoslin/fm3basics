@@ -8,9 +8,9 @@ const Hero = () => {
     <section className='about' onMouseOver={closeSubmenu}>
       <div className='about-center'>
         <article className='about-info'>
-          <h1>Hi, my name is Rosh</h1>
+          <h1>About Me</h1>
           <p>
-            Welcome to AxeFX Basics. My name is Rosh and I have been programming
+            Welcome to FM3 Basics. My name is Rosh and I have been programming
             Fractal Products for over 10 years. My clients include: Def Leppard,
             Melissa Etheridge, A Perfect Circle, Steve Vai, Dweezil Zappa, Bush,
             and more. I want to give back to the Fractal Community and show some
