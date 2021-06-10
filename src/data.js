@@ -12,7 +12,8 @@ const sublinks = [
         videoId: 'lcX6FIBYtz0',
         image: 'https://img.youtube.com/vi/lcX6FIBYtz0/0.jpg',
         url: 'https://youtu.be/lcX6FIBYtz0',
-        description: 'Assigning Footswitches - Effects and Hold Functions    ',
+        title: 'Assigning Footswitches ',
+        description: 'Effects and Hold Functions',
       },
       {
         index: 2,
@@ -21,7 +22,8 @@ const sublinks = [
         videoId: 'vbaZjJfpr2M',
         image: 'https://img.youtube.com/vi/vbaZjJfpr2M/0.jpg',
         url: 'https://youtu.be/vbaZjJfpr2M',
-        description: 'Assigning Footswitches - Scene and Toggle Functions   ',
+        title: 'Assigning Footswitches',
+        description: 'Scene and Toggle Functions   ',
       },
       {
         index: 3,
@@ -30,7 +32,8 @@ const sublinks = [
         videoId: 'gOeCtkBPb1g',
         image: 'https://img.youtube.com/vi/gOeCtkBPb1g/0.jpg',
         url: 'https://youtu.be/gOeCtkBPb1g',
-        description: 'Assigning Footswitches - Tuner and Tap Tempo Functions',
+        title: 'Assigning Footswitches',
+        description: ' Tuner and Tap Functions',
       },
       {
         index: 4,
@@ -39,8 +42,8 @@ const sublinks = [
         videoId: 'qt4v6Euxdz0',
         image: 'https://img.youtube.com/vi/qt4v6Euxdz0/0.jpg',
         url: 'https://youtu.be/qt4v6Euxdz0',
-        description:
-          'Assigning footswitches - Preset increment and decrement functions                 ',
+        title: 'Assigning footswitches',
+        description: 'Preset increment and decrement functions',
       },
       {
         index: 5,
@@ -49,8 +52,8 @@ const sublinks = [
         videoId: 'aYSSI0K8T60',
         image: 'https://img.youtube.com/vi/aYSSI0K8T60/0.jpg',
         url: 'https://youtu.be/aYSSI0K8T60',
-        description:
-          'Assigning footswitches - Build a simple three button preset        ',
+        title: 'Assigning footswitches',
+        description: 'Build a simple three button preset for live',
       },
       {
         index: 6,
@@ -59,8 +62,8 @@ const sublinks = [
         videoId: 'Z8AFOa_OSns',
         image: 'https://img.youtube.com/vi/Z8AFOa_OSns/0.jpg',
         url: 'https://youtu.be/Z8AFOa_OSns',
-        description:
-          'Seamless Switching - Approaches to avoid audio gaps/dropouts       ',
+        title: 'Seamless Switching',
+        description: 'Approaches and strategies to avoid audio gaps/dropouts',
       },
     ],
   },

@@ -4,7 +4,15 @@ import 'react-modal-video/scss/modal-video.scss';
 
 import ModalVideo from 'react-modal-video';
 
-const VideoModal = ({ label, icon, videoId, image, index, description }) => {
+const VideoModal = ({
+  label,
+  icon,
+  videoId,
+  image,
+  index,
+  description,
+  title,
+}) => {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -24,13 +32,12 @@ const VideoModal = ({ label, icon, videoId, image, index, description }) => {
           className='tutorial-img'
           alt='tutorial thumbnail'
         ></img>
-
+        <p>{title}</p>
         <p>{description}</p>
+        <button className='btn' onClick={() => setOpen(true)}>
+          Play Tutorial
+        </button>
       </div>
-
-      <button className='btn' onClick={() => setOpen(true)}>
-        Play Tutorial
-      </button>
     </React.Fragment>
   );
 };

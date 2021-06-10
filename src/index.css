@@ -135,11 +135,6 @@ p {
   }
 }
 
-/*
-=============== 
-Stripe Styles
-===============
-*/
 .nav {
   height: 5rem;
   display: flex;
@@ -307,13 +302,6 @@ Stripe Styles
 }
 
 .tutorial-center {
-  /* 
-  width: 90vw;
-  max-width: var(--max-width);
-  display: grid;
-  align-items: center;
-  margin-top: 15rem; */
-
   width: 90vw;
   max-width: var(--max-width);
   display: grid;
@@ -326,7 +314,8 @@ Stripe Styles
   display: grid;
   grid-template-areas:
     'header header header'
-    'video1 video2 video3';
+    'video1 video2 video3'
+    'video4 video5 video6';
   grid-template-rows: auto;
 }
 
@@ -344,9 +333,19 @@ Stripe Styles
 .video3 {
   grid-area: video3;
 }
+.video4 {
+  grid-area: video4;
+}
+.video5 {
+  grid-area: video5;
+}
+.video6 {
+  grid-area: video6;
+}
 
 .tutorial-div {
   margin-bottom: 5rem;
+  height: 16rem;
 }
 
 .tutorial h1 {
@@ -355,10 +354,12 @@ Stripe Styles
   margin-top: 15rem;
 }
 .tutorial p {
-  margin: auto;
+  /* margin: auto; */
   max-width: 30em;
   line-height: 1.8;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
+
+  /* white-space: nowrap; */
 }
 
 .tutorial-img {
@@ -368,6 +369,19 @@ Stripe Styles
 
 .tutorial-click-div {
   cursor: pointer;
+  /* border: solid 5px black; */
+  height: 20rem;
+  /* text-align: center; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tutorial-click-div button {
+  position: absolute;
+  bottom: 0;
 }
 
 .footer {
@@ -575,6 +589,14 @@ Stripe Styles
     font-size: 1.25rem;
   }
 
+  .tutorial-div {
+    height: 23rem;
+  }
+
+  .tutorial-click-div {
+    height: 23rem;
+  }
+
   .tutorial p {
     max-width: 15em;
   }
@@ -599,6 +621,14 @@ Stripe Styles
     font-size: 5.5rem;
   }
 
+  .tutorial-div {
+    height: 27rem;
+  }
+
+  .tutorial-click-div {
+    height: 27rem;
+  }
+
   .tutorial p {
     max-width: 100%;
   }
@@ -616,6 +646,13 @@ Stripe Styles
   }
   .tutorial-img {
     width: 26rem;
+  }
+
+  .tutorial-div {
+    height: 32rem;
+  }
+  .tutorial-click-div {
+    height: 32rem;
   }
 }
 /* TUTORIALS END */
