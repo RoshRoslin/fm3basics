@@ -65,6 +65,38 @@ const sublinks = [
         title: 'Seamless Switching',
         description: 'Approaches and strategies to avoid audio gaps/dropouts',
       },
+      {
+        index: 7,
+        label: 'Episode 7',
+        icon: <FaYoutube />,
+        videoId: 'Z8AFOa_OSns',
+        image: 'https://img.youtube.com/vi/dSw6RjMw_9E/0.jpg',
+        url: 'https://youtu.be/dSw6RjMw_9E',
+        title: 'Views Basics',
+        description:
+          'Implementing the Views feature to expand beyond three buttons',
+      },
+      {
+        index: 8,
+        label: 'Episode 8',
+        icon: <FaYoutube />,
+        videoId: 'Z8AFOa_OSns',
+        image: 'https://img.youtube.com/vi/xgTQWfoLb1g/0.jpg',
+        url: 'https://youtu.be/xgTQWfoLb1g',
+        title: 'Cabinet Selection',
+        description: 'Strategies and tips to select the proper cabinet block',
+      },
+      {
+        index: 9,
+        label: 'Episode 9',
+        icon: <FaYoutube />,
+        videoId: 'Z8AFOa_OSns',
+        image: 'https://img.youtube.com/vi/iRL5YUDpDZ0/0.jpg',
+        url: 'https://youtu.be/iRL5YUDpDZ0',
+        title: 'Preset Leveling',
+        description:
+          'Strategies to level out sounds and scenes within a preset',
+      },
     ],
   },
   {

@@ -315,7 +315,8 @@ p {
   grid-template-areas:
     'header header header'
     'video1 video2 video3'
-    'video4 video5 video6';
+    'video4 video5 video6'
+    'video7 video8 video9';
   grid-template-rows: auto;
 }
 
@@ -341,6 +342,15 @@ p {
 }
 .video6 {
   grid-area: video6;
+}
+.video7 {
+  grid-area: video7;
+}
+.video8 {
+  grid-area: video8;
+}
+.video9 {
+  grid-area: video9;
 }
 
 .tutorial-div {
